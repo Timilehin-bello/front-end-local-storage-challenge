@@ -311,6 +311,11 @@
     "@vue/compiler-dom" "3.3.10"
     "@vue/shared" "3.3.10"
 
+"@vue/devtools-api@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.5.1.tgz#7f71f31e40973eeee65b9a64382b13593fdbd697"
+  integrity sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==
+
 "@vue/reactivity-transform@3.3.10":
   version "3.3.10"
   resolved "https://registry.yarnpkg.com/@vue/reactivity-transform/-/reactivity-transform-3.3.10.tgz#b045776cc954bb57883fd305db7a200d42993768"
@@ -1065,6 +1070,11 @@ type-fest@^0.20.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
+type-fest@^4.8.2:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.8.3.tgz#6db08d9f44d596cd953f83020c7c56310c368d1c"
+  integrity sha512-//BaTm14Q/gHBn09xlnKNqfI8t6bmdzx2DXYfPBNofN0WUybCEUDcbCWcTa0oF09lzLjZgPphXAsvRiMK0V6Bw==
+
 uri-js@^4.2.2:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.4.1.tgz#9b1a52595225859e55f669d928f88c6c57f2a77e"
@@ -1076,6 +1086,14 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+vee-validate@4:
+  version "4.12.2"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.12.2.tgz#7f3e2ef23f7ef254fbdb00e58ca34458023e4d68"
+  integrity sha512-SF5AOHbyW8vy09FgMRVHxCtK/3D5Jsk0VyvMf/HZhwPgpjGCCBW6ZWDW11/HC6pRbMOjTcg3YueBI6hb3oveYg==
+  dependencies:
+    "@vue/devtools-api" "^6.5.1"
+    type-fest "^4.8.2"
 
 vite@^5.0.5:
   version "5.0.6"
@@ -1100,6 +1118,11 @@ vue-eslint-parser@^9.3.1:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^7.3.6"
+
+vue-toastification@1:
+  version "1.7.14"
+  resolved "https://registry.yarnpkg.com/vue-toastification/-/vue-toastification-1.7.14.tgz#4d6af4085f7122463c2821a27f851898b265cc85"
+  integrity sha512-khZR8t3NWZ/JJ2MZxXLbesHrRJ8AKa75PY5Zq8yMifF9x8lHq8ljYkC0d2PD9yahooygQB5tcFyRDkbbIPx8hw==
 
 vue@^3.3.10:
   version "3.3.10"
