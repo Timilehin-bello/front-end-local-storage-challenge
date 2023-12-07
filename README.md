@@ -1,35 +1,44 @@
-# locolstorage-web3brigde-challenge
+# Vue 3 To-Do List Application to show local storage and reactivity
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a simple yet powerful To-Do List application built with Vue 3. It allows users to add, edit, and delete tasks with ease. The application demonstrates the core features of Vue 3, including reactivity, component-based architecture, and local storage integration.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Add Tasks**: Users can add new tasks with a description and a date.
+- **Edit Tasks**: Existing tasks can be edited.
+- **Delete Tasks**: Users can delete tasks they no longer need.
+- **Local Storage**: Tasks are stored in the browser's local storage for persistence.
 
-## Customize configuration
+## Prerequisites
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Before you begin, ensure you have met the following requirements:
 
-## Project Setup
+- Node.js installed on your system.
+- Basic knowledge of Vue.js and JavaScript.
 
-```sh
-npm install
-```
+## Installation
 
-### Compile and Hot-Reload for Development
+To install the Vue 3 To-Do List application, follow these steps:
 
-```sh
-npm run dev
-```
+1. Clone the repository:
+   ```
+   git clone https://github.com/Timilehin-bello/front-end-local-storage-challenge.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd front-end-local-storage-challenge
+   ```
+3. Install the dependencies:
+   ```
+   yarn install
+   ```
 
-### Compile and Minify for Production
+## Usage
 
-```sh
-npm run build
-```
+To run the Vue 3 To-Do List application, follow these steps:
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Run the development server:
+   ```
+   yarn run dev
+   ```
+2. Open [http://localhost:5173](http://localhost:5173) in your browser.
